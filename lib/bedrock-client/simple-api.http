@@ -1,0 +1,11 @@
+POST https://{{lambdaUrlid}}.lambda-url.eu-central-1.on.aws/
+Content-Type: text/plain
+
+Which country has the highest GDP?
+
+###
+
+POST https://{{lambdaUrlid}}.lambda-url.eu-central-1.on.aws?temperature=0.9&topP=0.2
+Content-Type: text/plain
+
+What's the most speech free country in the world?
